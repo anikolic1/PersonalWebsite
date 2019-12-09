@@ -26,10 +26,6 @@ that watches my SCSS files and precompiles them as I write. I also installed the
 VS Code Live Server extension to watch my site change as I'm writing the code.
 Other than that I used git for version control and VSCode as a file editor.
 
-I chose not to include the SCSS files in the repository because they don't really show anything
-that the cleaned up CSS doesn't already show. There's no real need to have them
-when the CSS is available.
-
 ## Planned Features
 I plan on adding ways for visitors to comment on my projects and describe what they think.
 I also plan on adding a blog page that I would update once in a while to talk about
