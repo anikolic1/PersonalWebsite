@@ -9,7 +9,7 @@ and "my projects" which is a gallery of some of my projects. It also includes
 a "contact me" page which describes the best ways to get in touch with me.
 
 Additionally, the home page contains links to my relevant social media such as
-my Github, Linkedin, and professional Twitter.
+my Github, Linkedin, etc.
 
 ## Implementation
 
