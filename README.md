@@ -18,9 +18,7 @@ my Github, Linkedin, etc.
 ### How it's made
 I used HTML to display all my content and CSS to make it look pretty.
 In this current build, I used SCSS as a precompiler to generate
-compact CSS code. Even though this tool generates pretty clean CSS,
-sometimes there is extraneous code that can still be cleaned up by hand.
-So I went through the generated CSS afterwards to clean what I could.
+compact CSS code.
 
 ### Tools
 I used Node.js to install and run the SCSS precompiler. I wrote a small npm script
@@ -32,3 +30,7 @@ Other than that I used git for version control and VSCode as a file editor.
 I plan on adding ways for visitors to comment on my projects and describe what they think.
 I also plan on adding a blog page that I would update once in a while to talk about
 my work or what I'm interested in, in terms of technology and programming.
+
+## Suggestions
+I am open to any suggestions to improve my website! I am mostly looking for better overall 
+design advice, or if there are any ways to improve the code.
