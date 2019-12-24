@@ -21,18 +21,12 @@ body {
       z-index: -1;
       background: rgba(68, 68, 68, 0.9); }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   margin: 0;
   font-weight: 400; }
-  h1.lrg-heading,
-  h2.lrg-heading,
-  h3.lrg-heading {
+  h1.lrg-heading, h2.lrg-heading, h3.lrg-heading {
     font-size: 4rem; }
-  h1.sml-heading,
-  h2.sml-heading,
-  h3.sml-heading {
+  h1.sml-heading, h2.sml-heading, h3.sml-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
