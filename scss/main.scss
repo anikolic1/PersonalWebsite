@@ -1,4 +1,5 @@
 @import "config";
+// import mobile is at the bottom, because it overwrites other code
 @import "menu";
 
 * {
@@ -70,3 +71,5 @@ main {
 		}
 	}
 }
+
+@import "mobile";
