@@ -51,7 +51,15 @@
 
 // phones
 @include mediaSmall {
-	main#home h1 {
+	main#home h1, main#home h2 {
 		margin-top: 10vh;
+		margin-left: 2rem;
+		&.lrg-heading {
+			font-size: 3rem;
+		}
+
+		&.sml-heading {
+			font-size: 1rem;
+		}
 	}
 }
