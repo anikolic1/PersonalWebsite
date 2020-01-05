@@ -164,11 +164,11 @@ main {
     width: 100%;
     min-height: 0; }
   .menu-nav {
-    height: 75vh;
+    height: 70vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/portrait_small.PNG");
@@ -181,7 +181,7 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1, main#home h2 {
     margin-top: 10vh;
-    margin-left: 2rem; }
+    margin-right: 2rem; }
     main#home h1.lrg-heading, main#home h2.lrg-heading {
       font-size: 3rem; }
     main#home h1.sml-heading, main#home h2.sml-heading {
