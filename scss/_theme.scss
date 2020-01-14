@@ -1,0 +1,23 @@
+@mixin lightTheme {
+    body {
+        color: set-text-color($primary-bright);
+    }
+
+    main {
+        .icons {
+            a {
+                color: set-text-color($primary-bright);
+            }
+        }
+    }
+
+    .menu-btn {
+        .btn-line {
+            background: set-text-color($primary-bright);
+        }
+    }
+
+    .nav-link {
+        color: set-text-color($primary-bright);
+    }
+}

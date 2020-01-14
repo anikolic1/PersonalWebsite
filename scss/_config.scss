@@ -1,12 +1,13 @@
 // variables
 $primary-color: #444;
-$secondary-color: #eece1a;
-$tertiary-color: #FF33E9;
+$primary-bright: #fff;
+$secondary-color: #FF3399;
+$tertiary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background2.jpg);
 $portrait-small: url(../img/portrait_small.PNG);
 $portrait-normal: url(../img/portrait.PNG);
-$background-opacity: 0.75;
+$background-opacity: 0.85;
 
 // mixins
 @mixin easeOut {
@@ -30,6 +31,16 @@ $background-opacity: 0.75;
 				background: rgba($primary-color, $background-opacity);
 			}
 		}
+	}
+}
+
+// set text color
+@function set-text-color($color) {
+	@if (lightness($color) > 40) {
+		@return #000;
+	}
+	@else {
+		@return #fff;
 	}
 }
 
