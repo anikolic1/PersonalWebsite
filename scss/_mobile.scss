@@ -52,8 +52,10 @@
 // phones
 @include mediaSmall {
 	main#home h1, main#home h2 {
+		align-items: center;
+		text-align: center;
 		margin-top: 10vh;
-		margin-right: 2rem;
+		//margin-right: 2rem;
 		&.lrg-heading {
 			font-size: 3rem;
 		}
@@ -61,5 +63,9 @@
 		&.sml-heading {
 			font-size: 1rem;
 		}
+	}
+
+	.menu-nav {
+		background: rgba(darken($primary-color, 5), 0.95);
 	}
 }

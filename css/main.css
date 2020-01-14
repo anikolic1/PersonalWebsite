@@ -23,6 +23,7 @@
 .menu {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   visibility: hidden; }
   .menu.show {
@@ -181,9 +182,12 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1, main#home h2 {
-    margin-top: 10vh;
-    margin-right: 2rem; }
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh; }
     main#home h1.lrg-heading, main#home h2.lrg-heading {
       font-size: 3rem; }
     main#home h1.sml-heading, main#home h2.sml-heading {
-      font-size: 1rem; } }
+      font-size: 1rem; }
+  .menu-nav {
+    background: rgba(55, 55, 55, 0.95); } }
