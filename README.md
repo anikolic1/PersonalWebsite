@@ -1,4 +1,4 @@
-# PersonalWebsite
+# My Website
 Responsive personal website to describe myself. Created to showcase
 myself to others, so that they can know more about me and the work I do.
 
@@ -23,7 +23,7 @@ compact CSS code.
 ### Tools
 I used Node.js to install and run the SCSS precompiler. I wrote a small npm script
 that watches my SCSS files and precompiles them as I write. I also installed the
-VS Code Live Server extension to watch my site change as I'm writing the code.
+VSCode Live Server extension to watch my site change as I'm writing the code.
 Other than that I used git for version control and VSCode as a file editor.
 
 ## Planned Features
@@ -33,4 +33,4 @@ my work or what I'm interested in, in terms of technology and programming.
 
 ## Suggestions
 I am open to any suggestions to improve my website! I am mostly looking for better overall 
-design advice, or if there are any ways to improve the code.
+design advice, and if there are any ways to improve the code.
