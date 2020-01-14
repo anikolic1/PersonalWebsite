@@ -168,7 +168,8 @@ main {
   .menu-nav {
     height: 70vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
+    font-size: 24px;
+    background: rgba(55, 55, 55, 0.95); }
   .menu-branding {
     height: 30vh;
     transform: translate3d(100%, 0, 0); }
@@ -190,4 +191,6 @@ main {
     main#home h1.sml-heading, main#home h2.sml-heading {
       font-size: 1rem; }
   .menu-nav {
-    background: rgba(55, 55, 55, 0.95); } }
+    background: rgba(55, 55, 55, 0.95); }
+  .nav-item.show {
+    transform: translate3d(0, -35px, 0); } }

@@ -30,6 +30,7 @@
 		height: 70vh;
 		transform: translate3d(-100%, 0, 0);
 		font-size: 24px;
+		background: rgba(darken($primary-color, 5), 0.95);
 	}
 
 	.menu-branding {
@@ -67,5 +68,12 @@
 
 	.menu-nav {
 		background: rgba(darken($primary-color, 5), 0.95);
+	}
+
+	.nav-item {
+		&.show {
+			// slide in from the right of screen
+			transform: translate3d(0, -35px, 0);
+		}
 	}
 }

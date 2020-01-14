@@ -105,7 +105,7 @@
 	transition: all 0.40s ease-in-out;
 	//@include easeOut;
 	&.show {
-		// slide in from the right of screen
+		// slide in from the side of screen
 		transform: translate3d(0, 0, 0);
 	}
 }
