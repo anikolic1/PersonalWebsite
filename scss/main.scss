@@ -17,7 +17,7 @@ body {
 }
 
 // body main headings
-h1, h2{
+h1, h2, h3{
 	margin: 0;
 	font-weight: 400;	
 
@@ -70,6 +70,14 @@ main {
 			margin-top: 20vh;
 		}
 	}
+}
+
+.about-info {
+	display: grid;
+	grid-template-areas: 
+	'bio-img bio bio' 
+	'job1 job2 job3';
+	grid-template-columns: repeat(3, 1fr); // instead repeat, 1fr, 1fr, 1fr
 }
 
 @import "mobile";
